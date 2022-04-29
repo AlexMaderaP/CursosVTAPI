@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
+    "server": "node ./lib/server.js"
   },
   "author": "Alex Madera",
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
   }
 }
