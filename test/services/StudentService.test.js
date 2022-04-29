@@ -5,7 +5,7 @@ describe("Unit Tests for StudentService Class", () => {
         const students = [{email: "Todd@visualpartnership.xyz", haveCertification: true},
         {email: "Sexton@visualpartnership.xyz", haveCertification: true}]
         const studentsEmailsWithCertification = StudentService.getEmailsByCertification(students);
-        expect(studentsEmailsWithCertification[1].email).toBe("Sexton@visualpartnership.xyz");
+        expect(studentsEmailsWithCertification[1]).toBe("Sexton@visualpartnership.xyz");
         expect(studentsEmailsWithCertification.length).toBe(2);
     });
 
