@@ -12,5 +12,12 @@ describe("Unit Tests for StudentController Class", () => {
         expect(studentsEmailsWithCertification).not.toBeUndefined();
         expect(studentsEmailsWithCertification.length).toBeGreaterThan(2);
     });
+
+    test("Getting students by minimun credits (500)", () => {
+        const minimumCredits = 500;
+        const studentsWithMinimumCredits = StudentController.getStudentsByMinimumCredits(minimumCredits);
+        expect(studentsWithMinimumCredits).not.toBeUndefined();
+        expect(studentsWithMinimumCredits.length).toBeGreaterThan(20);
+    });
     
 });
