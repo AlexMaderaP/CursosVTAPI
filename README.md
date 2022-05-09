@@ -9,9 +9,9 @@ Para este proyecto se desarrollo una API con el uso de express como parte de las
 3. Habilitar un endpoint para consultar todos los estudiantes que tengan `credits` mayor a 500.
 
 #### Dependencias y Herramientas utilizadas
-- Jest *(26.0.0)* `npm install --save-dev jest`
-- Linter `npm install eslint --save-dev`
-- Express `npm install express --save`
+- Jest *(26.0.0)* 
+- Linter
+- Express
 - Pruebas automatizadas con Github Actions 
 ### Estructura
 La estructura del proyecto es la siguiente:
